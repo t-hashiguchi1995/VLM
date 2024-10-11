@@ -1,0 +1,37 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 仮想環境
+venv/
+env/
+.env
+
+# エディタ関連
+.vscode/
+.idea/
+
+# OS関連
+.DS_Store
+Thumbs.db
+
+# モデルのチェックポイント
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# Weights & Biases関連
+wandb/
+*.wandb
+
+# その他
+*.log
+*.csv
+*.json
+*.yaml
+*.yml
+
+# .env ファイル
+.env
